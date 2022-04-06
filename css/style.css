@@ -15,14 +15,6 @@ body {
   font-style: normal;
   letter-spacing: 0.03em;
 }
-
-h2 {
-  font-weight: 700;
-  font-size: 36px;
-  line-height: 1.2;
-  text-align: center;
-}
-
 a {
   text-decoration: none;
 }
@@ -31,8 +23,8 @@ a {
   list-style: none;
 }
 
-p {
-  color: var(--text-color);
+button {
+  font-family: 'Roboto';
 }
 
 /* Шапка сайта*/
@@ -90,7 +82,7 @@ p {
 
   font-weight: 900;
   font-size: 44px;
-  line-height: 3.6;
+  line-height: 1.36;
   text-align: center;
   letter-spacing: 0.06em;
   text-transform: uppercase;
@@ -111,6 +103,14 @@ letter-spacing: 0.06em;
 
 /*Особенности*/
 
+.features-main-title,
+.our-work-title {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.2;
+  text-align: center;
+}
+
 .features-title {
   font-weight: 700;
   font-size: 14px;
@@ -121,10 +121,18 @@ letter-spacing: 0.06em;
 .features-description {
   font-size: 14px;
   line-height: 1.7;
+  color: var(--text-color);
 }
 
 
 /*Наша команда*/
+
+.our-team-title {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.2;
+  text-align: center;
+}
 
 .our-team {
   background-color: #f5f4fa;
@@ -143,6 +151,7 @@ letter-spacing: 0.06em;
 .our-team-position {
 font-size: 16px;
 line-height: 1.2;
+color: var(--text-color);
 }
 
 /*Портфолио*/
@@ -170,11 +179,13 @@ line-height: 1.2;
   font-size: 18px;
   line-height: 2;
   letter-spacing: 0.06em;
+  text-align: left;
 }
 
 .project-description {
   font-size: 16px;
   line-height: 1.8;
+  color: var(--text-color);
 }
 
 /*Подвал*/
